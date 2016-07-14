@@ -1,6 +1,9 @@
 data/*
 results/*
+slides/*
 
-*.xlsx
+*.ppt*
+*.doc*
+*.xls*
 *.jpg
 *.png
