@@ -1,0 +1,58 @@
+ja:
+  label:
+    absorbance: ‹zŒõ“x
+    component: ¬•ª
+    sample: ƒTƒ“ƒvƒ‹
+    wavelength: ”g’·(nm)
+    wavenumber: ”g”(cm^{-1})
+  order:
+    percent: “
+  ordinal:
+    - ‘æ1
+    - ‘æ2
+    - ‘æ3
+    - ‘æ4
+    - ‘æ5
+    - ‘æ6
+    - ‘æ7
+    - ‘æ8
+    - ‘æ9
+    - ‘æ10
+  principlecomp: å¬•ª
+  prompt:
+    sgparams: 'type SG filter type in STRING:'
+  property:
+    CTE: CTE
+  value:
+    observed: À‘ª’l
+    calculated: ŒvZ’l
+    predicted: —\‘ª’l
+en:
+  label:
+    absorbance: absorbance
+    component: component
+    sample: sample
+    wavelength: wavelength(nm)
+    wavenumber: wavenumber(cm^{-1})
+  order:
+    percent: \%
+  ordinal:
+    - 1st
+    - 2nd
+    - 3rd
+    - 4th
+    - 5th
+    - 6th
+    - 7th
+    - 8th
+    - 9th
+    - 10th
+  principlecomp: Principal Component
+  prompt:
+    sgparams: 'type SG filter type in STRING:'
+  property:
+    CTE: CTE
+  value:
+    observed: observed
+    calculated: calculated
+    predicted: predicted

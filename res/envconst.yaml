@@ -1,0 +1,11 @@
+dir:
+  data: \data
+  result: \results
+division: \
+builtin:
+  builtin: builtin # built-in function
+  class: class # class
+  fullpath: fullpath # fullpath, for mfilename
+  dir: dir # directory
+  file: file # file
+  var: var # variable
