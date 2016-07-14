@@ -1,0 +1,17 @@
+# yaml file for data definition
+# directory name to save
+#
+# Ex)
+# data_used = data.pfizer.binary;
+# % data_used = data.pfizer.fivecomp;
+# load([pwd env.dir.data data_used.file.data])
+
+yoshizawalab:
+  # from Dr. Goto, Ozaki Lab. in Kwansei University
+  data20160713:
+    dir:
+      data: \yoshizawalab20160713
+      save: \yoshizawalab20160713
+    file:
+      data: \yoshizawalab20160713\data
+    name: yoshizawalab20160713
