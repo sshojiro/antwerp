@@ -9,17 +9,13 @@ DirName = util.setResultDir(mfilename(env.builtin.fullpath));
 
 %% input
 fold = 5;
-N = 100;
-D = 33;
 saveFiles = false;
 
-% data_used = data.xlab.data20160713;
-% load([pwd env.dir.result data_used.file.data]);
+data_used = data.xlab.data20160713;
+load([pwd env.dir.data data_used.file.data], 'X', 'y');
 
 
 %% model construction
-X = randn(N, D);
-y = randn(N, 1) .^2;
 
 [Zx, xmean, xstd] = zscore(X);
 [Zy, ymean, ystd] = zscore(y);
