@@ -2,6 +2,7 @@
 
 util = common.Utility;
 evaluator = common.Evaluation;
+FG = common.FigureGenerator;
 
 env = common.loadConst('env');
 exp = common.loadConst('exp');

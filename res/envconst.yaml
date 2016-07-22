@@ -1,7 +1,7 @@
 dir:
-  data: \data
-  result: \results
-division: \
+  data: /data
+  result: /results
+division: /
 builtin:
   builtin: builtin # built-in function
   class: class # class
