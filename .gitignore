@@ -2,6 +2,7 @@ data/*
 results/*
 slides/*
 
+*.asv
 *.ppt*
 *.doc*
 *.xls*
