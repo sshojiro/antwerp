@@ -28,5 +28,6 @@ fig = FG.plotWithDiagnalLine({y}, {predy(Zx)}, {'' 'y_{obs}' 'y_{pred}'}, ...
 util.saveJpg(fig, DirName, 'yyplot', 0, true, saveFiles);
 
 if saveFiles
+    close all;
     save([DirName env.division util.addPrefixTime('result')]);
 end
