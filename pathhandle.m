@@ -8,7 +8,8 @@ function pathhandle(mode)
 if nargin == 0, mode = 'add'; end
 DIRS.ON_PATH = {'libs/'
     'experiments/'
-    'scripts/'}';
+    'scripts/'
+    'tests/'}';
 if strcmp(mode, 'add')
     for targetdir = DIRS.ON_PATH
         addpath(genpath(targetdir{1}));
